@@ -3,8 +3,9 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Providers from "@/components/Providers";
 import Header from "@/components/Main/Header";
+import SmoothScrolling from "@/components/Main/SmoothScrolling";
 
-const inter = Inter({ subsets: ["latin"] });
+
 
 export const metadata: Metadata = {
   title: "Mohamad Zubi",
@@ -18,7 +19,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-main-page main-page-specific`}><Providers>
+      <body className={` bg-main-page main-page-specific`}><Providers>
+        <SmoothScrolling/>
         <Header/>
       {children}</Providers></body>
     </html>

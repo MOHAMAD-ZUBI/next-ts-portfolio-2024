@@ -13,6 +13,7 @@ const config: Config = {
       colors: {
         'primaryText': '#64FFD5',
         'custom-green': '#22863a',
+        'darkTheme' : '#16191d'
       },
       fontFamily: {
         fira: ['"Fira Code"', 'monospace'],
