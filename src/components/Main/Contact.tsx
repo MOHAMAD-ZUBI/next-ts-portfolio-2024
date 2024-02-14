@@ -13,7 +13,7 @@ const Contact = (props: Props) => {
         <div className='flex flex-row items-center justify-center  gap-[15px]'>
             
         <h1 className=' font-fira text-2xl text-primaryText'>03.</h1>
-            <h2 className='text-white font-fira text-3xl'>What’s Next?</h2>
+            <h2 className='text-white font-fira text-2xl font-bold md:text-3xl'>What’s Next?</h2>
            
             
 

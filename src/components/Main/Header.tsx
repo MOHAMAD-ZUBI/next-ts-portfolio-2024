@@ -13,7 +13,7 @@ const Header = (props: Props) => {
             <div className='flex flex-row gap-8 max-md:hidden font-fira'>
                 <Link href="#about"><h1><span className='text-[#64FFDA] font-fira'>01. </span>About</h1></Link>
                 <Link href="#work"><h1><span className='text-[#64FFDA] font-fira' >02. </span>Work</h1></Link>
-                <Link href="#contact"><h1><span className='text-[#64FFDA] font-fira'>04. </span>Contact</h1></Link>
+                <Link href="#contact"><h1><span className='text-[#64FFDA] font-fira'>03. </span>Contact</h1></Link>
             </div>
         </div>
     </div>

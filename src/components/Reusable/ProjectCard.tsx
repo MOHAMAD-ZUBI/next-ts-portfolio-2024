@@ -10,29 +10,31 @@ type Props = {
     tech : string[];
     link : string;
     github: string;
+    img: string;
 }
 
 const ProjectCard = (props: Props) => {
   return (
-    <div className='min-w-[300px] max-w-[400px] w-full bg-gray-600 rounded-lg p-2 flex flex-col min-h-[250px] h-full  '>
-        <div className=' flex flex-row justify-between'>
-            <FaCode size={25} className='mb-[30px] mt-4 ml-4' />
-            {props.github? <Link href={props.github} target='_blank'><LuGithub size={25} className='mb-[30px] mt-4 mr-4' /></Link> : <Link href={props.link} target='_blank'><SlShareAlt size={25} className='mb-[30px] mt-4 mr-4 '/></Link>}
+    <div className="max-w-sm rounded-md overflow-hidden  max-h-[700px] hover:scale-105 duration-200   shadow-lg bg-[#112240]/45">
+            <div className=' flex flex-row justify-between'>
+            <FaCode size={25} className='mb-[30px] mt-4 ml-4 text-primaryText ' />
+            {props.github? <Link href={props.github} target='_blank'><LuGithub size={25} className='mb-[30px] hover:text-primaryText duration-200 ease-in mt-4 mr-4' /></Link> : <Link href={props.link} target='_blank'><SlShareAlt size={25} className='mb-[30px] hover:text-primaryText duration-200 ease-in mt-4 mr-4 '/></Link>}
         </div>
-        <div className='flex flex-col items-center justify-start h-full w-full'>
-        <Link href={props.link} target='_blank  
-            '><h1 className='text-2xl text-white font-fira font-semibold  text-start mb-[10px]'>{props.title}</h1></Link>
-            <p className=' text-gray-300 text-sm font-fira tracking-tighter max-w-[90%] mb-[30px]'>{props.desc}</p>
-            <div className='flex flex-row gap-[5px] text-xs text-gray-300'>
-        {props.tech.map((tech, index) => (
-            <React.Fragment key={index}>
-                <p className='mx-[3px]'>{tech}</p>
-                {index !== props.tech.length - 1 && '|'}
-            </React.Fragment>
-        ))}
-    </div>
-        </div>
-    </div>
+            <div className='min-h-[270px]'>
+            <div className="px-6 py-4 ">
+              <div className="font-bold hover:text-primaryText duration-200 ease-in text-xl hover:cursor-pointer text-gray-300 mb-2">{props.title}</div>
+              <p className="text-gray-400 hover:text-primaryText duration-200 ease-in text-base">
+                {props.desc}
+              </p>
+            </div>
+            <div className="px-6 flex flex-wrap justify-start items-baseline pt-4 pb-2">
+              {props.tech.map((tech) => {
+                return <span className="inline-block bg-gray-200 hover:bg-gray-900 hover:text-primaryText duration-200 ease-in rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#{tech}</span>
+              })}
+              
+            </div>
+            </div>
+          </div>
   )
 }
 
