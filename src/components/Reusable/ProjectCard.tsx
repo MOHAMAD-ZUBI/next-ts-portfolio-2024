@@ -20,7 +20,7 @@ const ProjectCard = (props: Props) => {
             <FaCode size={25} className='mb-[30px] mt-4 ml-4 text-primaryText ' />
             {props.github? <Link href={props.github} target='_blank'><LuGithub size={25} className='mb-[30px] hover:text-primaryText duration-200 ease-in mt-4 mr-4' /></Link> : <Link href={props.link} target='_blank'><SlShareAlt size={25} className='mb-[30px] hover:text-primaryText duration-200 ease-in mt-4 mr-4 '/></Link>}
         </div>
-            <div className='min-h-[270px]'>
+            <div className='min-h-[360px]'>
             <div className="px-6 py-4 ">
               <div className="font-bold hover:text-primaryText duration-200 ease-in text-xl hover:cursor-pointer text-gray-300 mb-2">{props.title}</div>
               <p className="text-gray-400 hover:text-primaryText duration-200 ease-in text-base">

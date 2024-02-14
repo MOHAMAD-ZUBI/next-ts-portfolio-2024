@@ -12,7 +12,7 @@ const Contact = (props: Props) => {
     <div id='contact' className='max-w-[1500px] mx-auto w-full text-white mt-[150px] px-[16px] py-[16px]'>
         <div className='flex flex-row items-center justify-center  gap-[15px]'>
             
-        <h1 className=' font-fira text-2xl text-primaryText'>03.</h1>
+        <h1 className=' font-fira text-2xl text-primaryText'>04.</h1>
             <h2 className='text-white font-fira text-2xl font-bold md:text-3xl'>What’s Next?</h2>
            
             
