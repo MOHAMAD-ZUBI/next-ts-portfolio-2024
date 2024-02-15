@@ -1,8 +1,11 @@
 import Image from 'next/image'
 import React from 'react'
 import { IoMdArrowDropright } from "react-icons/io";
+import { DevInfo } from '@/ConstantData';
 
 type Props = {}
+
+
 
 const About = (props: Props) => {
   return (
@@ -16,10 +19,10 @@ const About = (props: Props) => {
         <div className='md:ml-[200px]  mt-[35px]  text-primaryText max-md:max-w-md  flex flex-row gap-2'>
         <div className=' text-gray-400'>
         <span className='text-lg font-fira md:max-w-[50%] max-w-[1000%]'>
-        Hello! My name is </span> <span className='text-lg font-fira text-primaryText md:max-w-[50%] max-w-[1000%]'>Mohamad </span><p className='text-lg font-fira md:max-w-[50%] max-w-[1000%]'> and I enjoy creating things that live on the internet. My interest in web development started back in 2021 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!
+        Hello! My name is </span> <span className='text-lg font-fira text-primaryText md:max-w-[50%] max-w-[1000%]'>{DevInfo.name} </span><p className='text-lg font-fira md:max-w-[50%] max-w-[1000%]'> {DevInfo.desc1}
             </p>
             <p className='text-lg mt-2 font-fira md:max-w-[50%] max-w-[1000%]'>
-            Fast-forward to today, and I’ve had the privilege of working at multiple companies as a freelancer. My main focus these days is building accessible, inclusive products and digital experiences for a variety of clients.
+            {DevInfo.desc2}
             </p>
             <p className='text-lg mt-6 text-primaryText font-fira md:max-w-[50%] max-w-[1000%]'>Technologies I’ve been working with recently:</p>
             <div className='flex flex-row gap-[55px] mt-4 text-primaryText'>

@@ -1,3 +1,4 @@
+import { DevInfo } from '@/ConstantData'
 import Link from 'next/link'
 import React from 'react'
 
@@ -8,7 +9,7 @@ const Header = (props: Props) => {
     <div className=' max-w-[1536px] mx-auto h-[66px] border-b-2 border-[#64FFDA]'>
         <div className='flex flex-row justify-between w-full h-full px-[16px] items-center text-white'>
             <div className='text-[#64FFDA] text-2xl font-fira'>
-                <Link href="/"> ./Mohamad </Link>
+                <Link href="/"> ./{DevInfo.name} </Link>
             </div>
             <div className='flex flex-row gap-8 max-md:hidden font-fira'>
                 <Link href="#about"><h1><span className='text-[#64FFDA] font-fira'>01. </span>About</h1></Link>
