@@ -4,6 +4,7 @@ import "./globals.css";
 import Providers from "@/components/Providers";
 import Header from "@/components/Main/Header";
 import SmoothScrolling from "@/components/Main/SmoothScrolling";
+import { Analytics } from '@vercel/analytics/react';
 
 
 
@@ -22,7 +23,9 @@ export default function RootLayout({
       <body className={` bg-main-page main-page-specific`}><Providers>
         <SmoothScrolling/>
         <Header/>
-      {children}</Providers></body>
+      {children}
+      <Analytics />
+      </Providers></body>
     </html>
   );
 }
