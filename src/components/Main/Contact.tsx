@@ -21,11 +21,7 @@ const Contact = (props: Props) => {
   useEffect(() => {
     const fetchRepoInfo = async () => {
       try {
-        const response = await fetch(`https://api.github.com/repos/${owner}/${repo}`, {
-          headers: {
-            Authorization: `token ${token}`,
-          },
-        }); 
+        const response = await fetch(`https://api.github.com/repos/${owner}/${repo}`); 
         if (!response.ok) {
           throw new Error('Failed to fetch repository information');
         }
