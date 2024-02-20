@@ -5,6 +5,7 @@ import Providers from "@/components/Providers";
 import Header from "@/components/Main/Header";
 import SmoothScrolling from "@/components/Main/SmoothScrolling";
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 
@@ -25,6 +26,7 @@ export default function RootLayout({
         <Header/>
       {children}
       <Analytics />
+      <SpeedInsights/>
       </Providers></body>
     </html>
   );
