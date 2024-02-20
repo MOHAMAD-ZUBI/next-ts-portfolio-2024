@@ -27,7 +27,7 @@ export const Project = [
     desc: "Crafted with Next.js and Framer Motion, this project features a bespoke cursor designed to enhance user interaction. Inspired by innovative design trends, the cursor employs a captivating mask hover effect, unveiling hidden text elements beneath. Perfect for adding a touch of creativity and flair to web interfaces.",
     title: "Cursor Hover Mask",
     tech: ["Next.js", "TailwindCSS", "Framer Motion"],
-    link: "https://cursor-hover-mask.vercel.app/",
+    link: "https://cursor-mask.mohamad-zubi.com/",
     github: "https://github.com/MOHAMAD-ZUBI/cursor-hover-mask",
     img: "",
   },
