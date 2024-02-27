@@ -10,8 +10,8 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 export const metadata: Metadata = {
-  title: "Mohamad Zubi",
-  description: "",
+  title: "Mohamad Zubi | Developer & Innovator",
+  description: "Hey there, My name is Mohamad Zubi, I’m a software engineer specialized in building Web & Mobile Apps. I also love designing them to create vibrant UI experiences. In the past few month I focused on personal project to upgrade my skills and be more efficiant.",
 };
 
 export default function RootLayout({
