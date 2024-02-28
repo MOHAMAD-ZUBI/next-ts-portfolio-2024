@@ -16,6 +16,7 @@ const Header = (props: Props) => {
                 <Link href="#exp"><h1><span className='text-[#64FFDA] font-fira' >02. </span>Experience</h1></Link>
                 <Link href="#work"><h1><span className='text-[#64FFDA] font-fira' >03. </span>Work</h1></Link>
                 <Link href="#contact"><h1><span className='text-[#64FFDA] font-fira'>04. </span>Contact</h1></Link>
+                <Link href="/blog" ><h1><span className='text-[#64FFDA] font-fira'>05. </span>Blog</h1></Link>
             </div>
         </div>
     </div>
