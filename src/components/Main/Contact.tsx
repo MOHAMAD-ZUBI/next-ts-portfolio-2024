@@ -61,7 +61,7 @@ const Contact = (props: Props) => {
 
             <div className='flex flex-col mt-[200px] gap-[5px] font-fira justify-center items-center'>
                 <h1 className='text-gray-400'>Designed & Built by Mohamad Zubi.</h1>
-                <Link href="https://brittanychiang.com/" target='_blank'><p className='text-gray-500'>Inspired by Brittany Chiang.</p></Link>
+                <Link href="/" ><p className='text-gray-500'>Inspired by Brittany Chiang.</p></Link>
 
             </div>
             <div className='flex flex-row justify-center items-center gap-[10px] md:hidden mt-[20px] '>

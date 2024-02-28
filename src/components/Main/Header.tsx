@@ -18,6 +18,9 @@ const Header = (props: Props) => {
                 <Link href="#contact"><h1><span className='text-[#64FFDA] font-fira'>04. </span>Contact</h1></Link>
                 <Link href="/blog" ><h1><span className='text-[#64FFDA] font-fira'>05. </span>Blog</h1></Link>
             </div>
+            <div className='md:hidden font-fira text-xl '>
+              <Link href="/blog" ><h1 className=' text-md'><span className='text-[#64FFDA] font-fira'></span>Blog</h1></Link>  
+            </div>
         </div>
     </div>
   )

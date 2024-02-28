@@ -44,9 +44,9 @@ const ProjectCard = (props: Props) => {
                 {props.desc}
               </p>
             </div>
-            <div className="px-6 flex flex-wrap justify-start items-baseline pt-4 pb-2">
+            <div className="px-6 flex flex-wrap justify-start gap-[3px] items-baseline pt-4 pb-2">
               {props.tech.map((tech) => {
-                return <span className="inline-block bg-gray-200 hover:bg-gray-900 hover:text-primaryText duration-200 ease-in rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#{tech}</span>
+                return <div className=' text-primaryText p-2 bg-primaryText/5 rounded-full text-sm'>#{tech}</div>
               })}
               
             </div>
