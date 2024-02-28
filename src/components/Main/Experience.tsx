@@ -1,6 +1,7 @@
 import React from 'react'
 import ExperinceCard from '../Reusable/ExperinceCard'
 import {ExperienceData} from "../../ConstantData"
+import { TracingBeam } from '../ui/tracing-beam'
 
 
 
@@ -18,11 +19,14 @@ const Experience = (props: Props) => {
             <div className=' bg-slate-500 md:max-w-[250px] max-w-[100px] w-full h-[1px]'></div>
             
         </div>
+        
         {ExperienceData.map((exp) => {
             return <ExperinceCard additionalLinks={[]} company={exp.company} companyInfo={exp.companyInfo} date={exp.date} desc={exp.desc}
                 tech={exp.tech} title={exp.title} link={exp.link}
             />
         })}
+        
+        
         </div>
     </div>
   )

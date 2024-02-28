@@ -9,7 +9,7 @@ type Props = {}
 
 const StickyContact = (props: Props) => {
   return (
-    <div>
+    <div className='z-10'>
         <div className='flex flex-col gap-[15px] text-white items-center fixed bottom-0 ml-4 max-md:hidden  left-0'>
         <Link className='hover:text-primaryText' target='_blank' href={getInTouch.github}> <LuGithub size={20} /> </Link>
                 <Link className='hover:text-primaryText' target='_blank' href={getInTouch.linkedin}><FiLinkedin size={20} /></Link>
