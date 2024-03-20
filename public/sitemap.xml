@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://mohamad-zubi.com/</loc>
+    <lastmod>2024-03-20</lastmod> 
+  </url>
+  <url>
+    <loc>https://mohamad-zubi.com/blog</loc>
+    <lastmod>2024-03-15</lastmod> 
+  </url>
+  <url>
+    <loc>https://mohamad-zubi.com/blog/nextjs-and-vercel</loc>
+    <lastmod>2024-03-10</lastmod> 
+  </url>
+  <url>
+    <loc>https://mohamad-zubi.com/blog/pre-rendering</loc>
+    <lastmod>2024-03-10</lastmod> 
+  </url>
+  <url>
+    <loc>https://mohamad-zubi.com/blog/ssg-ssr</loc>
+    <lastmod>2024-03-10</lastmod> 
+  </url>
+  <url>
+    <loc>https://mohamad-zubi.com/blog/why-you-should-use-next-js-and-vercel-in-2024</loc>
+    <lastmod>2024-03-10</lastmod> 
+  </url>
+  
+</urlset>
