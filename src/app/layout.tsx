@@ -28,6 +28,12 @@ export default function RootLayout({
         />
       </head>
       <body className={` bg-main-page main-page-specific`}>
+        <iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-KB7Z7MTM"
+          height="0"
+          width="0"
+          className="hidden"
+        ></iframe>
         <Providers>
           <SmoothScrolling />
           <Header />
