@@ -22,6 +22,11 @@ export const Project = [
     link: "https://resumeiry.tech",
     github: "",
     img: "",
+    content: (
+      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
+        Resumeiry | Resume Builder
+      </div>
+    ),
   },
   {
     desc: "E-Commerce Supplements Website project! This website is designed for users to browse and purchase supplements. It is built using Node.js, Express.js, MongoDB for the backend, and TypeScript with Next.js for the frontend.",
@@ -30,6 +35,11 @@ export const Project = [
     link: "",
     github: "https://github.com/MOHAMAD-ZUBI/MERN-Ecommerce",
     img: "",
+    content: (
+      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
+        E-Commerce Website
+      </div>
+    ),
   },
   {
     desc: "Crafted with Next.js and Framer Motion, this project features a bespoke cursor designed to enhance user interaction. Inspired by innovative design trends, the cursor employs a captivating mask hover effect, unveiling hidden text elements beneath. Perfect for adding a touch of creativity and flair to web interfaces.",
@@ -38,6 +48,11 @@ export const Project = [
     link: "https://cursor-mask.mohamad-zubi.com/",
     github: "https://github.com/MOHAMAD-ZUBI/cursor-hover-mask",
     img: "",
+    content: (
+      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
+        Cursor Hover Mask
+      </div>
+    ),
   },
   {
     desc: "The project offers users the ability to condense lengthy URLs into concise and shareable links. It features a user-friendly interface for effortlessly shortening and redirecting URLs.",
@@ -46,6 +61,11 @@ export const Project = [
     link: "",
     github: "https://github.com/MOHAMAD-ZUBI/mern-urlshortner",
     img: "",
+    content: (
+      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
+        URL Shortener
+      </div>
+    ),
   },
   {
     desc: "The project is made for RoadLogistics company, the dashboard allows employees to send/track sms.",
@@ -54,6 +74,11 @@ export const Project = [
     link: "http://roadco-smstracking.online/",
     github: "",
     img: "",
+    content: (
+      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
+        SMS Tracking Dashboard
+      </div>
+    ),
   },
   {
     desc: "The project is made for Esharti company, the app allows usesrs to take courses about sign language. and particpate in online events.",
@@ -62,6 +87,11 @@ export const Project = [
     link: "https://esharti.net/",
     github: "",
     img: "/esharti2.png",
+    content: (
+      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
+        Esharti App
+      </div>
+    ),
   },
   {
     desc: "As the founder of my own startup, I've developed a website and mobile app akin to established food delivery platforms. This venture enables users to conveniently make online orders, track their orders, reorder items, and explore nearby restaurants.",
@@ -71,6 +101,11 @@ export const Project = [
     link: "https://cravecorners.com/",
     github: "",
     img: "",
+    content: (
+      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
+        Crave Corners
+      </div>
+    ),
   },
   {
     desc: "Crafted for my school's senior project, this system acts as a comprehensive student automation platform, empowering students to efficiently manage their academic journey by overseeing courses, grades, and attendance.",
@@ -79,6 +114,11 @@ export const Project = [
     link: "",
     github: "https://github.com/MOHAMAD-ZUBI/MERN-Student-Automation-System",
     img: "",
+    content: (
+      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
+        Student Automation System
+      </div>
+    ),
   },
 ];
 

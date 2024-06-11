@@ -16,22 +16,34 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'primaryText': '#64FFD5',
-        'custom-green': '#22863a',
-        'darkTheme' : '#16191d'
+        primaryText: "#64FFD5",
+        "custom-green": "#22863a",
+        darkTheme: "#16191d",
       },
       fontFamily: {
-        fira: ['"Fira Code"', 'monospace'],
+        fira: ['"Fira Code"', "monospace"],
       },
       backgroundImage: {
-        'main-page': '#112240',
-        'main-page-specific': '#112240',
+        "main-page": "#112240",
+        "main-page-specific": "#112240",
       },
     },
   },
   plugins: [
     nextui(),
     addVariablesForColors,
+    function ({ addUtilities }: any) {
+      const newUtilities = {
+        ".no-scrollbar::-webkit-scrollbar": {
+          display: "none",
+        },
+        ".no-scrollbar": {
+          "-ms-overflow-style": "none",
+          "scrollbar-width": "none",
+        },
+      };
+      addUtilities(newUtilities);
+    },
   ],
 };
 
@@ -40,7 +52,7 @@ function addVariablesForColors({ addBase, theme }: any) {
   let newVars = Object.fromEntries(
     Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
   );
- 
+
   addBase({
     ":root": newVars,
   });

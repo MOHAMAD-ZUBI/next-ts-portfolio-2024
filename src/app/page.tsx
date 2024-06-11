@@ -5,6 +5,7 @@ import Experience from "@/components/Main/Experience";
 import Header from "@/components/Main/Header";
 import Hero from "@/components/Main/Hero";
 import Intro from "@/components/Main/Intro";
+import NewProjects from "@/components/Main/NewProjects";
 import Projects from "@/components/Main/Projects";
 import StickyContact from "@/components/Main/StickyContact";
 import AnimatedSection from "@/components/Reusable/AnimatedSection";
@@ -23,7 +24,7 @@ export default function Home() {
   return (
     <div>
       {!showMessages && <Header />}
-      <main className="min-h-screen bg-main-page main-page-specific ">
+      <main className="min-h-screen bg-main-page main-page-specific overflow-y-scroll no-scrollbar ">
         <div className="flex flex-col gap-[50px]">
           {showMessages && <Intro />}
           {!showMessages && <StickyContact />}
@@ -36,8 +37,9 @@ export default function Home() {
           <AnimatedSection id="exp">
             <Experience />
           </AnimatedSection>
+
           <AnimatedSection id="work">
-            <Projects />
+            <NewProjects />
           </AnimatedSection>
           <AnimatedSection id="contact">
             <Contact />
