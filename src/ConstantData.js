@@ -16,6 +16,14 @@ export const HeroData = {
 
 export const Project = [
   {
+    desc: "Resumeiry is a resume builder platform that allows users to create and customize their resumes. The platform offers a variety of templates and features to help users create a professional resume. The project is built using Next.js, Express.js, Node.js, and MongoDB.",
+    title: "Resumeiry | Resume Builder",
+    tech: ["Next.js", "Express.js", "Node.js", "MongoDB", "TailwindCSS"],
+    link: "https://resumeiry.tech",
+    github: "",
+    img: "",
+  },
+  {
     desc: "E-Commerce Supplements Website project! This website is designed for users to browse and purchase supplements. It is built using Node.js, Express.js, MongoDB for the backend, and TypeScript with Next.js for the frontend.",
     title: "E-Commerce Website",
     tech: ["Next.js", "Express.js", "Node.js", "MongoDB"],
