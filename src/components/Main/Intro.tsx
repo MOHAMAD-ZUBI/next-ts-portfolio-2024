@@ -9,6 +9,7 @@ const Intro = (props: Props) => {
     "Hello,",
     "Bonjour",
     "Hola",
+    "مرحبا",
     "Ciao",
     "Hallo",
     "Salut",
@@ -29,7 +30,13 @@ const Intro = (props: Props) => {
     <div className="h-screen w-full text-white">
       <div className="flex justify-center items-center h-full">
         {messageIndex < messages.length && (
-          <h4 className="text-5xl capitalize text-white font-bold">
+          <h4
+            className="text-5xl capitalize text-white font-bold"
+            style={{
+              opacity: messageIndex === messages.length - 1 ? 0 : 1,
+              transition: "opacity 0.5s",
+            }}
+          >
             {messages[messageIndex]}
           </h4>
         )}

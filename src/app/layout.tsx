@@ -36,7 +36,7 @@ export default function RootLayout({
         ></iframe>
         <Providers>
           <SmoothScrolling />
-          <Header />
+
           {children}
           <Analytics />
           <SpeedInsights />
