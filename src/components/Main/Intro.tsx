@@ -7,13 +7,13 @@ const Intro = (props: Props) => {
   const [messageIndex, setMessageIndex] = React.useState(0);
   const messages = [
     "Hello,",
+    "Merhaba",
     "Bonjour",
     "Hola",
     "مرحبا",
     "Ciao",
     "Hallo",
     "Salut",
-    "Hej",
     "你好",
   ];
 
