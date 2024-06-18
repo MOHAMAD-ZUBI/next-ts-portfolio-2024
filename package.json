@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@nextui-org/react": "^2.2.9",
+    "@tabler/icons-react": "^3.6.0",
     "@vercel/analytics": "^1.2.1",
     "@vercel/speed-insights": "^1.0.10",
     "clsx": "^2.1.0",
