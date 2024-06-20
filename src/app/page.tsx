@@ -1,4 +1,3 @@
-"use client";
 import About from "@/components/Main/About";
 import Contact from "@/components/Main/Contact";
 import Experience from "@/components/Main/Experience";
@@ -13,21 +12,20 @@ import Image from "next/image";
 import React from "react";
 
 export default function Home() {
-  const [showMessages, setShowMessages] = React.useState(true);
+  // const [showMessages, setShowMessages] = React.useState(true);
 
-  const handleShowMessages = () => {
-    setInterval(() => {
-      setShowMessages(false);
-    }, 2500);
-  };
-  handleShowMessages();
+  // const handleShowMessages = () => {
+  //   setInterval(() => {
+  //     setShowMessages(false);
+  //   }, 2500);
+  // };
+  // handleShowMessages();
   return (
     <div>
-      {!showMessages && <Header />}
+      <Header />
       <main className="min-h-screen bg-main-page main-page-specific overflow-y-scroll no-scrollbar ">
         <div className="flex flex-col gap-[50px]">
-          {showMessages && <Intro />}
-          {!showMessages && <StickyContact />}
+          <StickyContact />
           <AnimatedSection id="hero">
             <Hero />
           </AnimatedSection>
